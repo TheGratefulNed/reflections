@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It creates a .git folder and prepares the folders/files in the master directory to be managed through git
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area serves as a "pre-commit" location and allows you to exclude some files from your working directory that may 
+	not directly relate to your repository or that you might not be ready to upload yet.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	By comparing diffs of your staging area and working directory or your staging area and repository, you can ensure that you're
+	commiting one logical change per commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches would be useful when adding and developing experimental changes/features/functions, making alternate versions of your
+	program, etc. because you can develop those larger changes separately from your main code
+
+How do the diagrams help you visualize the branch structure?
+	Diagramming the branch structure makes it very easy to understand the concept of branching and how jumping to different commits
+	leads to different code revisions
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging two branches results in all changes made in each branch being combined into a single branch.  It's represented in the
+	diagrams by connecting both branches' head node to a new node on whichever branch is being merged into.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	Automatic merges allow for large and/or disparate changes to easily be moved between two branches, but can become problematic
+	if different branches made changes to the same lines in any given file.  Manual merges will address any conflicts, but can be
+	more time-consuming and increases the chance of introducing errors.
