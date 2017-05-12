@@ -6,8 +6,8 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    If you are working collaboratively, you may not want to pull down changes that others have made until you know
-    if they will affect or conflict with anything you've worked on.
+    If you are working collaboratively, you may not want to pull down changes that others have made until
+    you know if they will affect or conflict with anything you've worked on.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
@@ -24,7 +24,9 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Collaborating without Git or GitHub (or another version control software) would require exchanging copies of
+    files that are updated.  Finding differences between files (and therefore merging) would be more difficult
+    without either manually tracking changes or using another program to compare the files.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
