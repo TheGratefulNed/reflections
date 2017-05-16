@@ -31,4 +31,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Generally, you would want to make changes in a separate branch only if they're substantial alterations or
+    something that you are uncertain about keeping.  Making changes directly to master is simpler, since you
+    don't have to worry about changing branches, merging, etc., but large or complicated additions that might
+    entail multiple commits will quickly muddy your git log.  If your changes are all in master and you decide
+    to remove something that you had added, you will need to redo any other changes (e.g., bug fixes) unrelated
+    to the feature being removed.
